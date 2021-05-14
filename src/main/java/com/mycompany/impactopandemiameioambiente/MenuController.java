@@ -21,6 +21,14 @@ public class MenuController {
     private Button europaBtn;
     @FXML
     private Button chinaBtn;
+    @FXML
+    private Button infoBtn1;
+    @FXML
+    private Button infoBtn2;
+    @FXML
+    private Button infoBtn3;
+    @FXML
+    private Button docBtn;
 
     @FXML
     private static FXMLLoader loadFXML(String fxml) throws IOException {
@@ -32,6 +40,8 @@ public class MenuController {
         Country country = new Country();
         Node node = (Node) event.getSource();
         country.setNome(data[0]);
+        country.setTexto(data[1]);
+        country.setUrlImagem(data[2]);
         Stage stage = (Stage) node.getScene().getWindow();
         stage.close();
         try {
@@ -41,7 +51,7 @@ public class MenuController {
             Parent root = loader.load();
             Scene scene = new Scene(root);
             stage.setScene(scene);
-            controller.setCountry(country);
+            controller.setData(country);
             stage.show();
         } catch (IOException e) {
             System.err.println(String.format("Error: %s", e.getMessage()));
@@ -49,7 +59,12 @@ public class MenuController {
     }
 
     public void initialize() {
-        euaBtn.setOnAction(e -> sendData(e, new String[]{"EUA"}));
-        euaBtn.setOnAction(e -> sendData(e, new String[]{"ITALY"}));
+        euaBtn.setOnAction(e -> sendData(e, new String[]{"Estados Unidos", "Texto estados unidos", "https://i.imgur.com/EuhjrDW.png"}));
+        italyBtn.setOnAction(e -> sendData(e, new String[]{"Itália", "Texto da italia", "https://i.imgur.com/8cKNigN.png"}));
+        chinaBtn.setOnAction(e -> sendData(e, new String[]{"China", "Texto da China", "https://i.imgur.com/bsmkDGH.png"}));
+        europaBtn.setOnAction(e -> sendData(e, new String[]{"União Europeia", "Texto da Europa", "https://i.imgur.com/pnlkcsF.png"}));
+        infoBtn1.setOnAction(e -> sendData(e, new String[]{"União Europeia", "Texto da Europa", "https://i.imgur.com/pnlkcsF.png"}));
+        infoBtn2.setOnAction(e -> sendData(e, new String[]{"União Europeia", "Texto da Europa", "https://i.imgur.com/pnlkcsF.png"}));
+        infoBtn3.setOnAction(e -> sendData(e, new String[]{"União Europeia", "Texto da Europa", "https://i.imgur.com/pnlkcsF.png"}));
     }
 }

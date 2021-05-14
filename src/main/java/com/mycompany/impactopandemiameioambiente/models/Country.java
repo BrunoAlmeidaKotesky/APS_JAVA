@@ -1,9 +1,9 @@
 package com.mycompany.impactopandemiameioambiente.models;
 
 public class Country {
-    public String nome;
-    public String texto;
-    public String urlImagem;
+    private String nome;
+    private String texto;
+    private String urlImagem;
 
     public String getNome() {
         return this.nome;

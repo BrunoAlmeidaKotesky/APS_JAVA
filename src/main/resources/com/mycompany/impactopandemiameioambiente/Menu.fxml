@@ -58,7 +58,7 @@
             </Label>
             <Pane layoutX="19.0" layoutY="35.0" prefHeight="101.0" prefWidth="308.0">
                <children>
-                  <Button fx:id="italyBtn" onAction="#sendData" id="windows7-default" layoutX="107.0" layoutY="19.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="179.0" style="-fx-background-color: #008CBA;"  text="Itália" textFill="WHITE" />
+                  <Button fx:id="italyBtn"  id="windows7-default" layoutX="107.0" layoutY="19.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="179.0" style="-fx-background-color: #008CBA;"  text="Itália" textFill="WHITE" />
                   <Separator layoutX="11.0" layoutY="84.0" prefHeight="0.0" prefWidth="287.0" />
                   <ImageView fitHeight="59.0" fitWidth="59.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -69,7 +69,7 @@
             </Pane>
             <Pane layoutX="19.0" layoutY="130.0" prefHeight="94.0" prefWidth="287.0">
                <children>
-                  <Button fx:id="euaBtn" onAction="#sendData" id="windows7-default" layoutX="108.0" layoutY="11.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="179.0" style="-fx-background-color: #008CBA;"  text="Estados Unidos" textFill="WHITE" />
+                  <Button fx:id="euaBtn"  id="windows7-default" layoutX="108.0" layoutY="11.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="179.0" style="-fx-background-color: #008CBA;"  text="Estados Unidos" textFill="WHITE" />
                   <ImageView fitHeight="59.0" fitWidth="59.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="https://i.imgur.com/EuhjrDW.png" />
@@ -80,7 +80,7 @@
             </Pane>
             <Pane layoutX="19.0" layoutY="224.0" prefHeight="94.0" prefWidth="308.0">
                <children>
-                  <Button fx:id="europaBtn" onAction="#sendData" id="windows7-default" layoutX="106.0" layoutY="11.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="179.0" style="-fx-background-color: #008CBA;"  text="União Europeia" textFill="WHITE" />
+                  <Button fx:id="europaBtn"  id="windows7-default" layoutX="106.0" layoutY="11.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="179.0" style="-fx-background-color: #008CBA;"  text="União Europeia" textFill="WHITE" />
                   <Separator layoutX="11.0" layoutY="69.0" prefHeight="0.0" prefWidth="287.0" />
                   <ImageView fitHeight="59.0" fitWidth="59.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -91,7 +91,7 @@
             </Pane>
             <Pane layoutX="19.0" layoutY="306.0" prefHeight="94.0" prefWidth="308.0">
                <children>
-                  <Button fx:id="chinaBtn" onAction="#sendData" id="windows7-default" layoutX="105.0" layoutY="11.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="179.0" style="-fx-background-color: #008CBA;"  text="China" textFill="WHITE" />
+                  <Button fx:id="chinaBtn"  id="windows7-default" layoutX="105.0" layoutY="11.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="179.0" style="-fx-background-color: #008CBA;"  text="China" textFill="WHITE" />
                   <ImageView fitHeight="59.0" fitWidth="59.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="https://i.imgur.com/bsmkDGH.png" />
@@ -102,10 +102,10 @@
             </Pane>
             <Pane layoutX="417.0" layoutY="35.0" prefHeight="363.0" prefWidth="220.0">
                <children>
-                  <Button layoutX="25.0" layoutY="42.0" mnemonicParsing="false" style="-fx-background-color: #008CBA;" text="Emissão de gás carbono " textFill="WHITE" />
-                  <Button layoutX="25.0" layoutY="149.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="148.0" style="-fx-background-color: #008CBA;" text="Vida selvagem" textFill="WHITE" />
-                  <Button layoutX="25.0" layoutY="248.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="148.0" style="-fx-background-color: #008CBA;" text="Resíduos" textFill="WHITE" />
-                  <Button layoutX="125.0" layoutY="324.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #008CBA;" text="Documento" textFill="WHITE" />
+                  <Button fx:id="infoBtn1" layoutX="25.0" layoutY="42.0" mnemonicParsing="false" style="-fx-background-color: #008CBA;" text="Emissão de gás carbono " textFill="WHITE" />
+                  <Button fx:id="infoBtn2" layoutX="25.0" layoutY="149.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="148.0" style="-fx-background-color: #008CBA;" text="Vida selvagem" textFill="WHITE" />
+                  <Button fx:id="infoBtn3" layoutX="25.0" layoutY="248.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="148.0" style="-fx-background-color: #008CBA;" text="Resíduos" textFill="WHITE" />
+                  <Button fx:id="docBtn" layoutX="125.0" layoutY="324.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #008CBA;" text="Documento" textFill="WHITE" />
                </children>
             </Pane>
             <Separator layoutX="381.0" layoutY="52.0" orientation="VERTICAL" prefHeight="200.0" />
