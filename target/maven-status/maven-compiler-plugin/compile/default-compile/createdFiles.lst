@@ -1,3 +1,5 @@
-com\mycompany\impactopandemiameioambiente\App.class
+com\mycompany\apsimpactomeioambientecovid\models\Country.class
+com\mycompany\apsimpactomeioambientecovid\MenuController.class
 module-info.class
-com\mycompany\impactopandemiameioambiente\SecondaryController.class
+com\mycompany\apsimpactomeioambientecovid\CountryController.class
+com\mycompany\apsimpactomeioambientecovid\App.class
