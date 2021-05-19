@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"com.mycompany.apsimpactomeioambientecovid","l":"App"},{"p":"com.mycompany.apsimpactomeioambientecovid","l":"CountryController"},{"p":"com.mycompany.apsimpactomeioambientecovid","l":"MenuController"}];updateSearchResults();
